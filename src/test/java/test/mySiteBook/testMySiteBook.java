@@ -40,21 +40,7 @@ public class testMySiteBook extends BaseTest {
 		 String actualProjectName = quotePreview.getProjectName();
 		 Boolean result =  expectedSampleProject.contains(actualProjectName);
 		
-
-		// String quotationTitlle =
-		// driver.findElement(By.xpath("//span[@class='fw-normal']")).getText();
-
-		// Assert.assertEquals(expectedQuotesTitle, quotationTitlle);
-
-		/*
-		 * List<WebElement> tableOption =
-		 * driver.findElements(By.xpath("//tbody/tr[@class='sub-section-row']"));
-		 * 
-		 * for (int i = 0; i < tableOption.size(); i++) {
-		 * 
-		 * }
-		 */
-
+		 quotePreview.validateCost();
 	}
 
 }

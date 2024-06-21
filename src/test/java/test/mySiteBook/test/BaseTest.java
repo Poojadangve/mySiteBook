@@ -86,9 +86,9 @@ public class BaseTest {
 		return loginPage;
 	}
 
-	/*@AfterMethod
+	@AfterMethod
 	public void tearDown() {
 		driver.close();
-	}*/
+	}
 
 }

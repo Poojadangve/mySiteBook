@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-19T17:48:19 IST" name="Default suite" finished-at="2024-06-19T17:49:02 IST" duration-ms="42948">
+  <suite started-at="2024-06-21T11:31:33 IST" name="Default suite" finished-at="2024-06-21T11:32:42 IST" duration-ms="69340">
     <groups>
     </groups>
-    <test started-at="2024-06-19T17:48:19 IST" name="Default test" finished-at="2024-06-19T17:49:02 IST" duration-ms="42948">
+    <test started-at="2024-06-21T11:31:33 IST" name="Default test" finished-at="2024-06-21T11:32:42 IST" duration-ms="69340">
       <class name="test.mySiteBook.testMySiteBook">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.mySiteBook.testMySiteBook@5d7148e2]" started-at="2024-06-19T17:48:19 IST" name="launchApplication" finished-at="2024-06-19T17:48:20 IST" duration-ms="1564" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.mySiteBook.testMySiteBook@5d7148e2]" started-at="2024-06-21T11:31:33 IST" name="launchApplication" finished-at="2024-06-21T11:31:34 IST" duration-ms="1564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="validation()[pri:0, instance:test.mySiteBook.testMySiteBook@5d7148e2]" started-at="2024-06-19T17:48:20 IST" name="validation" finished-at="2024-06-19T17:49:01 IST" duration-ms="41344" status="PASS">
+        <test-method signature="validation()[pri:0, instance:test.mySiteBook.testMySiteBook@5d7148e2]" started-at="2024-06-21T11:31:34 IST" name="validation" finished-at="2024-06-21T11:32:42 IST" duration-ms="67743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validation -->
