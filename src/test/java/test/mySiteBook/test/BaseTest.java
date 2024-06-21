@@ -19,14 +19,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import test.mySiteBook.pageObjects.LandingPage;
 import test.mySiteBook.pageObjects.LoginPage;
 
-
-
-
 public class BaseTest {
 
 	public WebDriver driver;
 	public LandingPage landingPage;
-	
 
 	public WebDriver initilazeDriver() throws Exception {
 
@@ -62,18 +58,17 @@ public class BaseTest {
 		return driver;
 
 	}
-	
-	public String getScreenShot(String testcaseName, WebDriver driver) throws Exception
-	{
-		TakesScreenshot ts = (TakesScreenshot)driver;
-		
+
+	public String getScreenShot(String testcaseName, WebDriver driver) throws Exception {
+		TakesScreenshot ts = (TakesScreenshot) driver;
+
 		File src = ts.getScreenshotAs(OutputType.FILE);
-	
-		File file = new File(System.getProperty("user.dir")+"//reports"+testcaseName+ ".png");
-	
+
+		File file = new File(System.getProperty("user.dir") + "//reports" + testcaseName + ".png");
+
 		FileUtils.copyFile(src, file);
-		
-		return System.getProperty("user.dir")+"//reports"+testcaseName+ ".png";
+
+		return System.getProperty("user.dir") + "//reports" + testcaseName + ".png";
 	}
 
 	@BeforeMethod(alwaysRun = true)
